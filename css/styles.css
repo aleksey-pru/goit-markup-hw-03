@@ -148,8 +148,9 @@ img {
 }
 
 .order-button {
+    display: block;
     margin: 0 auto;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border-radius: 4px;
     font-weight: 500;
@@ -159,6 +160,7 @@ img {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    border: none;
 }
 
 .order-button:focus,
