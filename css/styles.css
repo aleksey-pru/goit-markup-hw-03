@@ -318,9 +318,11 @@ img {
 .footer {
     background-color: #2e2f42;
     height: 312px;
+    padding: 100px 0;
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -328,6 +330,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -346,4 +349,5 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
