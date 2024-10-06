@@ -34,7 +34,7 @@ img {
 .container {
     margin: 0 auto;
     width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
 
 .section {
@@ -50,17 +50,20 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .navigation {
     display: flex;
-    gap: 76px;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .navigation-items {
@@ -95,6 +98,8 @@ img {
 .address {
     font-style: normal;
     display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .address-items {
