@@ -62,13 +62,13 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .navigation-items {
     display: flex;
     gap: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .header-studio {
