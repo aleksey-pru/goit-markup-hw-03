@@ -104,13 +104,14 @@ img {
 .address {
     font-style: normal;
     display: flex;
-    /* margin-top: 24px;
-    margin-bottom: 24px; */
+
 }
 
 .address-items {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-link {
@@ -120,6 +121,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    
 }
 
 .address-link:focus,
@@ -130,9 +132,12 @@ img {
 .bg-solution {
     background-color: #2e2f42;
     height: 600px;
+    /* padding: 188px 0; */
 }
 
-
+.text-button {
+    padding: 188px 0;
+}
 
 .title-solution {
     font-weight: 700;
